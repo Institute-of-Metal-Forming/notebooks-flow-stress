@@ -9,3 +9,8 @@ dependencies = [
     "jupytext",
     # more dependencies here
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit~=4.1.0",
+]
